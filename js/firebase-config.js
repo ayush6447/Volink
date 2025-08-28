@@ -1,6 +1,6 @@
 // Firebase Configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAQD0uJdpj9RRaza8S2ILhsjJuQmmAJFhY",
+  apiKey: "",
   authDomain: "volink-ea687.firebaseapp.com",
   projectId: "volink-ea687",
   storageBucket: "volink-ea687.firebasestorage.app",
@@ -16,5 +16,6 @@ firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const db = firebase.firestore();
 const storage = firebase.storage();
+
 
 console.log('Firebase initialized with volink-ea687 project'); 
